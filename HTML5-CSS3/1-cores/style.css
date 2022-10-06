@@ -1,0 +1,6 @@
+h1{
+    background-color: rgb(red, green, blue);
+}
+h2{
+    background-color: rgba(red, green, blue, alpha);
+}

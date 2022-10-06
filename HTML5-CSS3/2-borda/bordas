@@ -1,0 +1,12 @@
+o border é atribuido atraves da sintaxe:
+
+div{
+    border: 1px solid red
+}
+
+onde o primeiro argumento é a espessura, depois o tipo e a cor
+
+tipos de bordas:
+- solid
+- dotted
+- 
