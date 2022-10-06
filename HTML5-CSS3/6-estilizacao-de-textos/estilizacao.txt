@@ -1,0 +1,13 @@
+.texto{
+    color: cor do textp
+    font-size: tamanho
+    font-weight: espessura
+    font-family: estilo das letras
+    text-transform: maisuculas, minusculas
+    letter-spacing: espaço entre letras
+    word-spacing: espaçamento entre palavras
+    line-height: espaçamento entre linhas
+    text-shadow: sombra no texto
+}
+
+## fontes externas podem ser adicionadas linkando no html

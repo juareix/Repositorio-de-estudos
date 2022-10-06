@@ -1,0 +1,22 @@
+listas podem  ser ordenadas ou não ordenadas:
+
+listas ordenadas:
+<ul>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+</ul>
+
+listas não ordenadas:
+<ol>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+</ol>
+
+
+existem tag de listas que representam o cabeçalho
+
+posso mudar o estilo de marcação usando o css

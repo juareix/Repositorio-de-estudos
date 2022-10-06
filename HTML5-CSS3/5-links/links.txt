@@ -4,4 +4,6 @@ links são atraves da tag:
 o target é opcional e usado somente quando queremos q o usuario seja 
 redirecionado a outra aba
 
-muitas coisas podem ser englobados como link
+muitos elementos podem ser englobados como link
+
+os links podem tbm referenciar a elemntos da propria pagina
