@@ -1,0 +1,9 @@
+margin e padding:
+
+margin espaçamento externo
+padding espaçamento interno
+
+uma das dicas é inicializar o css zerando o margin geral:
+*{
+    margin: 0;
+}

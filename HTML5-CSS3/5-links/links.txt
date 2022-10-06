@@ -1,0 +1,7 @@
+links são atraves da tag:
+<a href="www.google.com"  target="_blank">Link<a/>
+
+o target é opcional e usado somente quando queremos q o usuario seja 
+redirecionado a outra aba
+
+muitas coisas podem ser englobados como link

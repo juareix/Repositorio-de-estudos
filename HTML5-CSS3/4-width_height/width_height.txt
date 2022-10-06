@@ -1,0 +1,19 @@
+width: largura
+height: altura
+
+assumem valores através de px, porcentagem, .em .rem e vh ou vw
+aceita tbm o valor "auto", ou seja será automatico
+
+dica de width e height:
+
+Ao declarar um valor de altura e largura pra um elemento, esse valor vale
+para o conteudo do elemento.
+esse espaço naturalmente não contabiliza com margin, padding e borda.
+
+Ou seja, ao declar um elemneto 40X40 com uma borda 2, padding 10, margin 10
+esse elemento ao final contara com um valor 62X62.
+
+Isso pode ser revertido usando o atribuito:
+*{
+    box-sizing:  border-box
+}
