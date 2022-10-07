@@ -1,0 +1,18 @@
+<div>
+    juarez
+    <p>juarez</p>
+</div>
+
+div{
+    color: red;
+}
+
+heranca é quando a tag filha herda estilização da tag pai
+
+a menos que seja assim:
+
+div p{
+    color: red;
+}
+
+assim so o p recebe

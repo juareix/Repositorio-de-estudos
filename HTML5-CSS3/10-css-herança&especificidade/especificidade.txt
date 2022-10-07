@@ -1,0 +1,12 @@
+O css funciona estilizando de cima pra baixo. A especificidade trata de quando queremos
+utilizar de agrupamentos para estilizar determinado item.
+
+Daí surge a preferencia, caso o seletor tenham a mesma prioridade, o ultimo será aplicado.
+
+inline 
+id
+class
+tag
+
+** entre tags se sobressai a mais especifica, exemplo
+uma div venceria um body
