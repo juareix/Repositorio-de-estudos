@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    width: 600px;
+}
+th, td{
+    border: 1px solid;
+}
