@@ -1,0 +1,41 @@
+/*aqui cria-se a animação*/
+@keyframes exemplo{
+    0%{
+        background-color: red;;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: yellow;
+        top: 200;
+        left: 200;
+    }
+    50%{
+        background-color: blue;
+        top: 0;
+        left: 200;
+    }
+    75%{
+        background-color: green;
+        top: 200;
+        left: 0;
+    }
+    100%{
+        background-color: red;
+        top: 100;
+        left: 100;
+    }
+}
+
+body{
+    margin: 0;
+}
+
+.exemplo{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    animation-name: exemplo;
+    animation-duration: 10s;
+}

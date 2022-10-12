@@ -1,0 +1,33 @@
+html 5 semantico principais tags:
+
+
+<header>: cabecalho de pag
+
+<footer>: rodape de pag
+
+<main>: conteudo principal
+
+<aside>: conteudo lateral
+
+<nav>: conteudos de navegação de links
+
+<section>: faz papel de div, mas podem ser usados em conjunto
+
+<article>: grandes contruções de textos
+
+<time>: quando se faz referencias a datas
+
+<q>: pequenas citações
+
+<blockqoute>: peqeunas citações
+
+<address>: referencias a contatos
+
+<video>: trata da exibiçao de videos. Podendo configurar tamanho, como iniciará, controles exibidos e etc...
+
+<audio>: mesma coisa do video, porem pra audio (kkkk)
+
+<figure>: para englobar uma imagem
+
+
+
