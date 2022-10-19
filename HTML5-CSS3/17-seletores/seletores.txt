@@ -1,0 +1,17 @@
+alem do seltores ja usados como id, classes ou o proprio nome da tag
+
+há outras opções como:
+
+seleção por atributo de tag:
+ assim irá estilizar todos input do tipo text
+input [type=text]{
+    background-color: red;
+}
+se tirar o text ele irá estilizar todos os com qualquer type
+
+ou somente o atributo:
+
+assim irá estilizar todos elementos com o atributo required
+[required]{
+    background-color: red;
+}
