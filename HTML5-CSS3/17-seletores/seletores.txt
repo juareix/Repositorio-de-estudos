@@ -3,7 +3,7 @@ alem do seltores ja usados como id, classes ou o proprio nome da tag
 há outras opções como:
 
 seleção por atributo de tag:
- assim irá estilizar todos input do tipo text
+assim irá estilizar todos input do tipo text
 input [type=text]{
     background-color: red;
 }
@@ -15,3 +15,50 @@ assim irá estilizar todos elementos com o atributo required
 [required]{
     background-color: red;
 }
+
+seletor de primeira letra e primeira linha:
+
+primeira letra:
+p::first-letter{
+
+}
+
+primeira linha:
+p::first-line{
+
+}
+
+seletor de primeir e ultimo elemento:
+
+div:first-child{
+    //primeiro elemento
+}
+
+div:last-child{
+    //ultimo elemento
+}
+
+seletor negativo:
+
+:not(.className){
+    ira estilizar todos, menos o especificado
+}
+
+seletor nth:
+
+seleciona os filhos de um elemento a partir do seu numero de posição:
+
+div:nth(2){
+    irá selecionar o segundo filho da div
+}
+
+seletores before e after:
+
+span:before{
+    content:"-->";
+}
+fará com que seja feito essa ação antes do elemnto before
+
+o after é depois.
+
+ 
