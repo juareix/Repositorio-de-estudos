@@ -13,3 +13,11 @@ div{
     margin: auto;
     transform: rotate(80deg);
 }
+
+.div3{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transform: skewy(20deg);
+}

@@ -1,0 +1,11 @@
+td{
+    border: 2px solid ;
+}
+
+tbody tr:nth-child(even){
+    background-color: green;
+}
+
+thead{
+    background-color: gray;
+}
