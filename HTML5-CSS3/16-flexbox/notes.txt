@@ -1,0 +1,28 @@
+No flex container:
+
+display: flex;
+
+flex-direction: column/ row / row-reverse / column-reverse
+
+flex-wrap: wrap / nowrap / wrap-reverse
+
+justify-content: center - flex-end - flex-start - space-between - space-around
+
+align-items: center - flex-start - flex-end
+
+align-content: center - flex-start - flex-end 
+
+
+No elemento filho:
+
+Flex: assume o numero que será a fração correspondente do tamanho do container q ele vai ocupar
+
+align-self: alinha de manaiera individual os itens
+
+order: especifica as ordensa dos itens
+
+flex-grow: especifica o quanto um item crescera em relaçoa aos demais
+
+flex-shrink: especifica o quanto um item diminuira em relaçao aos demais
+
+flex-basis: define um tamanho inicial ao item
