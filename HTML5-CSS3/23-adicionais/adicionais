@@ -1,0 +1,19 @@
+combinadores:
+
+seletor de descendentes : (espaço)
+
+seletor filho: >
+
+seletor irmao adjacente : +
+
+seletor geral de irmãos (~)
+
+
+pseudoclasses:
+
+
+
+
+A !important regra em CSS é usada para adicionar mais importância a uma propriedade/valor do que o normal.
+
+Na verdade, se você usar a !importantregra, ela substituirá TODAS as regras de estilo anteriores para essa propriedade específica nesse elemento!
