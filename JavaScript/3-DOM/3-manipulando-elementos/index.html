@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="teste">
+        juarez
+    </div>
+    <button onclick="clicou()">mudar</button>
+
+    <div class="teste2">
+        juarez
+    </div>
+    <button onclick="clicou2()">mudar</button>
+
+    <div class="child">
+
+    </div>
+    <button onclick="addChild()">add child</button>
+
+
+
+    <script>
+        //innerHTML
+        function clicou(){
+            document.querySelector(".teste").innerHTML = 'mudou o valor'
+        } 
+
+        //append
+        function clicou2(){
+            document.querySelector('.teste2').append('texto adicionado ao que ja existia')
+        }
+
+        //appenChild
+        function addChild(){
+            let teste = document.querySelector(".child");
+            
+            let newChild = document.createElement('span')
+            newChild.innerHTML = 'sei la </br>'
+
+            teste.appendChild(newChild)
+        }
+
+    </script>
+</body>
+</html>
