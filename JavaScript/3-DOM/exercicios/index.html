@@ -7,6 +7,7 @@
     <style>
         body{
             background-color: darkolivegreen;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
         .container{
@@ -27,6 +28,20 @@
             font-weight: bold;
             cursor: pointer;
         }
+
+        ol{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            max-width: 200px;
+        }
+
+        li{
+            border-bottom: 1px solid;
+            padding: 10px;
+            margin-top: 5px;
+        }
     </style>
     <title>Document</title>
 </head>
@@ -36,7 +51,7 @@
             <h1>Lista de coisas</h1>
         </div>
         <div>
-            <input class="entrada" type="text">
+            <input class="entrada" type="text" placeholder="Digite sua tarefa:">
         </div>
         <ol class="lista">
 
@@ -50,25 +65,34 @@
     <script>
         function limpar (){
             let entrada = document.querySelector('.entrada');
-            entrada.value = ' '
+            entrada.value = ''
         }
         function adicionar(){
             //seleciona o input para pegar o que foi escrito
             let entrada = document.querySelector('.entrada');
 
-            //seleciona o elemento pai onde vai ser colocado os child
-            let item = document.querySelector('.lista');
+            if((entrada.value == '') || (entrada.value == ' ')){
+                alert('insira um valor válido')
+                limpar();
+            }
+            else{
+                //seleciona o elemento pai onde vai ser colocado os child
+                let item = document.querySelector('.lista');
 
-            //cria um elemento filho na memoria
-            let newChild = document.createElement('li');
+                //cria um elemento filho na memoria
+                let newChild = document.createElement('li');
 
-            //atribue a esse filho o valor inserido no input
-            newChild.innerText = entrada.value;
+                //atribue a esse filho o valor inserido no input
+                newChild.innerText = entrada.value;
 
-            //atribue ao elemento pai essa nova child
-            item.appendChild(newChild);
+                //atribue ao elemento pai essa nova child
+                item.appendChild(newChild);
+                
+                limpar();
+            }
 
-            limpar();
+
+            
         }
 
     </script>
