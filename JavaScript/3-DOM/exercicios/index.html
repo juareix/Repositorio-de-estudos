@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: darkolivegreen;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 400px;
+            background-color: gray;
+        }
+        .botao{
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Lista de coisas</h1>
+        </div>
+        <div>
+            <input class="entrada" type="text">
+        </div>
+        <ol class="lista">
+
+        </ol>
+    </div>
+
+    <div>
+        <button class="botao" onclick="adicionar()">adicionar</button>
+    </div>
+
+    <script>
+        function limpar (){
+            let entrada = document.querySelector('.entrada');
+            entrada.value = ' '
+        }
+        function adicionar(){
+            //seleciona o input para pegar o que foi escrito
+            let entrada = document.querySelector('.entrada');
+
+            //seleciona o elemento pai onde vai ser colocado os child
+            let item = document.querySelector('.lista');
+
+            //cria um elemento filho na memoria
+            let newChild = document.createElement('li');
+
+            //atribue a esse filho o valor inserido no input
+            newChild.innerText = entrada.value;
+
+            //atribue ao elemento pai essa nova child
+            item.appendChild(newChild);
+
+            limpar();
+        }
+
+    </script>
+</body>
+</html>
