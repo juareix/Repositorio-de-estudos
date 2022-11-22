@@ -11,3 +11,5 @@ console.log(newF)
 //transforma em inteiro
 newI = parseInt(n)
 console.log(newI)
+
+//transforma em float = parseFloat()
