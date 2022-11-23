@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="demo">
+
+    </div>
+    <button onclick="comecar()">começar</button>
+    <button onclick="parar()">parar</button>
+    <script>
+        let timer; //setada aqui como escopo global para ser usada dentros das funcoes
+        
+        function comecar(){
+            timer = setInterval(showTime, 10);
+        }
+
+        function parar(){
+            clearInterval(timer); //limpa
+        }
+
+        function showTime(){
+            let d = new Date();
+
+            let mili = d.getMilliseconds(0);
+            let seconds = d.getSeconds(0);
+            let minutes = d.getMinutes(0);
+
+            let txt = minutes+ ':'+seconds+':'+mili;
+            document.querySelector('.demo').innerHTML = txt;
+        }
+    </script>
+</body>
+</html>
