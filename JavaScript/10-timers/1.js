@@ -11,5 +11,6 @@
 //este executado a função apenas uma vez apos o tempo setado acabar
 console.log('espere 3 segundos')
 setTimeout(function stime(){
-    console.log(´rodou´)
+    let nome = 'juarez'
+    console.log(`rodou ${nome}`)
 }, 3000)
