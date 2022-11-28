@@ -1,0 +1,12 @@
+git init -> para iniciar um repositorio na pasta local
+
+git status -> verifica se há mudanças nos arquivos
+
+git add . -> envia todos os arquivos para commit
+
+git add "nome do arquivo" -> envia apenas o arquivo espeecificado
+
+git commit -m "comentario" -> faz o commit no repositorio local e prepara pra envio pro repositorio remoto
+
+git log -> mostra os commit que foram feitos 
+
