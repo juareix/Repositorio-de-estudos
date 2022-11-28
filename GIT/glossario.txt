@@ -10,3 +10,4 @@ git commit -m "comentario" -> faz o commit no repositorio local e prepara pra en
 
 git log -> mostra os commit que foram feitos 
 
+ 
