@@ -10,4 +10,10 @@ git commit -m "comentario" -> faz o commit no repositorio local e prepara pra en
 
 git log -> mostra os commit que foram feitos 
 
- 
+git branch -> mostra as branch daquele projeto e em qual estou
+
+git reset -> reverte alteraçoes e há três tipos de reset:
+
+- soft: reseta pro commit ewscolhido, mas mantém preparado o commit q foi resetado (mais recomendado em equipes)
+- mixed: faz a msm coisa, mas n prepara pra commit
+- hard: reseta de verdade e volta ao commit escolhido
