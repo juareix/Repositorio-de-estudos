@@ -3,7 +3,6 @@ function loadPosts(){
     //fetch() retorna uma promessa
     //faço a requisiçao
     fetch('https://jsonplaceholder.typicode.com/posts')
-        
         //vou solicitar e receber p resultado
         .then(function(resultado){//quando ja tiver resultado:
             return resultado.json() //retorna uma promise e ja transforma em json
